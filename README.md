@@ -1,4 +1,4 @@
-# NuBlog Boilerplate v1
+# NuBlog Boilerplate v3
 Build Git-based ~~static~~ blog with Nuxt 3!
 
 Based on [Nuxt Content](https://content.nuxtjs.org/) and [Nuxt Image](https://v1.image.nuxtjs.org/)
