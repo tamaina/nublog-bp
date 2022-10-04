@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "build": "node ./nublog/setup-docs.mjs && nuxt build",
+    "dev": "node ./nublog/watch-docs.mjs & nuxt dev",
+    "generate": "node ./nublog/setup-docs.mjs && nuxt generate",
     "preview": "nuxt preview"
   },
   "devDependencies": {
