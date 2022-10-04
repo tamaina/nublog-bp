@@ -1,7 +1,7 @@
-# NuBlog Boilerplate v3
+# NuBlog Boilerplate v4
 Build Git-based ~~static~~ blog with Nuxt 3!
 
-Based on [Nuxt Content](https://content.nuxtjs.org/) and [Nuxt Image](https://v1.image.nuxtjs.org/)
+Based on [Nuxt Content (document driven)](https://content.nuxtjs.org/) and [Nuxt Image](https://v1.image.nuxtjs.org/)
 
 ## Installation
 1. Install Node.js
@@ -9,10 +9,11 @@ Based on [Nuxt Content](https://content.nuxtjs.org/) and [Nuxt Image](https://v1
 3. `npm install`
 
 ## Edit content
-The editing method is the same as for Nuxt Content.
+You should put Markdowns and images under `docs/` directory.  
+`content` directory is generated automatically as intermediate files.
 
-This boilerplate sets `content` directory to the [public directory](https://v3.nuxtjs.org/guide/directory-structure/public/).  
-So static files like `robots.txt` and `favicon.ico` should be placed under `content` directory.
+This boilerplate sets `docs` directory to the [public directory](https://v3.nuxtjs.org/guide/directory-structure/public/).  
+So static files like `robots.txt` and `favicon.ico` should be placed under `docs` directory.
 
 ## ~~Publish~~
 ~~I recommend to use the static site hosting service like Netlify or Cloudflare Pages.~~
