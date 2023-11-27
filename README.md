@@ -1,5 +1,5 @@
-# NuBlog Boilerplate v4
-Build Git-based ~~static~~ blog with Nuxt 3!
+# NuBlog Boilerplate v5
+Build Git-based static blog with Nuxt 3!
 
 Based on [Nuxt Content (document driven)](https://content.nuxtjs.org/) and [Nuxt Image](https://v1.image.nuxtjs.org/)
 
@@ -15,14 +15,11 @@ You should put Markdowns and images under `docs/` directory.
 This boilerplate sets `docs` directory to the [public directory](https://v3.nuxtjs.org/guide/directory-structure/public/).  
 So static files like `robots.txt` and `favicon.ico` should be placed under `docs` directory.
 
-## ~~Publish~~
-~~I recommend to use the static site hosting service like Netlify or Cloudflare Pages.~~
+## Publish
+I recommend to use the static site hosting service like Netlify or Cloudflare Pages.
 
-~~Build Command: `npm run generate`~~ 　
-~~Public Path: `.output/public`~~
-
-The static site currently do not work because Nuxt Image does not yet support `nuxt generate`.  
-https://v1.image.nuxtjs.org/advanced/static-images
+Build Command: `npm run generate`  
+Public Path: `.output/public`
 
 ## Server
 1. `npm run build` to build
@@ -32,3 +29,7 @@ https://v1.image.nuxtjs.org/advanced/static-images
 Development: `npm run dev`  
 Static Site Preview: `npm run generate && npm run preview`  
 Server Preview: `npm run build && npm run preview`
+
+## NOTE
+### `layouts/index.vue`
+Do not create `layouts/index.vue`, for some reason Nuxt has a problem with it.

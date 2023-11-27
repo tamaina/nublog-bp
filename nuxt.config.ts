@@ -2,16 +2,15 @@ import { defineNuxtConfig } from 'nuxt/config';
 
 // https://nuxt.com/docs/guide/directory-structure/nuxt.config#nuxt-config-file
 export default defineNuxtConfig({
+  ssr: true,
   dir: {
     public: 'docs',
   },
   modules: [
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@nuxt/content',
   ],
   router: {
-    // router config https://nuxtjs.org/docs/configuration-glossary/configuration-router/
-    trailingSlash: false,
   },
   content: {
     // content config https://content.nuxtjs.org/api/configuration/
